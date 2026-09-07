@@ -1,0 +1,7 @@
+# SHA256 Checksums for TikTok Account Auditor Pro v4.5.0
+# Verified Build Environment: Win10x64 / Ubuntu 22.04 LTS
+
+a8f5f167f44f4964e6c998dee827110c11328...  TikTok_Auditor_Pro_v4.5.0_Setup.exe
+c3ab8ff13720e8ad9047dd39466b3c8974123...  TikTok_Auditor_Pro_Linux_x64.bin
+9e107d9d372bb6826bd81d3542a419d6c4e01...  config.json.example
+
