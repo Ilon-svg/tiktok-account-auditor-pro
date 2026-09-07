@@ -1,97 +1,116 @@
-# ⚡ TikTok Account Auditor Pro | High-Speed Bulk Verification Suite
+# ⚡ TikTok Account Auditor Pro | High-Performance Verification & Scraper Engine
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Release-v4.2.0_Stable-blue.svg" alt="Release">
-  <img src="https://img.shields.io/badge/Speed-100k%2B_Checked%2Fhr-brightgreen.svg" alt="Speed">
-  <img src="https://img.shields.io/badge/Captcha_Solver-Direct_AI_Bypass-orange.svg" alt="Captcha">
-  <img src="https://img.shields.io/badge/Status-Undetected-success.svg" alt="Status">
+  <img src="https://img.shields.io/badge/Release-v4.5.0_Stable-blue.svg?style=for-the-badge" alt="Release">
+  <img src="https://img.shields.io/badge/Speed-100k%2B_Checks%2Fhr-brightgreen.svg?style=for-the-badge" alt="Speed">
+  <img src="https://img.shields.io/badge/Captcha_Solver-Direct_AI_Engine-orange.svg?style=for-the-badge" alt="Captcha">
+  <img src="https://img.shields.io/badge/Status-Undetected_&_Active-success.svg?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Architecture-Asynchronous_C%2B%2B%2FPython-purple.svg?style=for-the-badge" alt="Architecture">
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://t.me/mariabosser"><strong>👤 Contact Developer</strong></a> •
+  <a href="https://t.me/Sectools1"><strong>📢 Telegram Channel</strong></a>
 </div>
 
 ---
 
-## 🇬🇧 English | Enterprise Overview
-**Engineered by a senior software architect with 20+ years of high-concurrency systems experience.**
+## 📌 Executive Overview
 
-TikTok Account Auditor Pro is an ultra-fast, multi-threaded bulk verification engine designed for media agencies, digital asset managers, and growth teams. It provides seamless status auditing, security checkup, and credential state verification with zero skipping and high-throughput execution.
+**Engineered by a senior systems architect with 20+ years of software engineering & automation experience.**
 
-### 💎 Key Features & Architecture
-*   **🚀 Multi-Tab & Asynchronous Multi-Threading:** Process tens of thousands of accounts simultaneously using light-weight worker threads with minimal resource footprint.
-*   **🎯 Zero-Skip Guarantee (100% Audit Precision):** Advanced retry queue ensures every single `user:pass` pair is verified without dropped connections.
-*   **⏳ Smart Rate-Limit Handling:** Automatically detects rate-limited responses and safely isolates `user:pass` sessions into a dedicated retry pool for later verification.
-*   **🧩 Low-Latency Captcha Bypass Engine:** Proprietary direct-solving module that solves TikTok challenge puzzles without requiring external proxy overhead for the solver.
-*   **📡 Universal Proxy Integration:** Full native support for SOCKS4, SOCKS5, HTTP, HTTPS, and rotating 4G/residential proxies (works with both paid and free pools).
-*   **🔍 Built-in 100k+ Profile Scraper:** Extract over 100,000 target user profiles automatically to build clean audit queues.
-*   **📲 Real-time Telegram Webhooks:** Instant notifications sent directly to your Telegram channel/bot for valid audit results and account metrics.
+**TikTok Account Auditor Pro** is an ultra-fast, multi-threaded validation and analytics suite designed for digital asset managers, social media growth teams, and enterprise auditors. Built on an asynchronous execution model, it guarantees **100% checking accuracy without skipped tasks**, bypassing complex edge checks while preserving resource integrity.
 
 ---
 
-## 🛠️ Configuration & Workflow
+## 🛠️ Core Technical Features
 
-### Quick Setup Example (`config.json`)
+*   **⚡ Asynchronous Multi-Tab Core:** Utilizes lightweight worker pools capable of opening and processing multiple verification streams concurrently with minimal CPU/RAM footprint.
+*   **🎯 Zero-Skip Guarantee:** Implements an atomic retry queue system. No `user:pass` line is ever dropped due to socket timeouts or network jitter.
+*   **⏳ Smart Rate-Limit Auto-Isolation:** Detects rate-limited requests instantly and isolates affected `user:pass` pairs into a clean secondary output file (`rate_limited.txt`) for immediate or delayed re-auditing.
+*   **🧩 Low-Latency Direct Captcha Bypass:** Proprietary AI solver engine that bypasses TikTok captcha puzzles directly on local worker threads **without routing through proxy chains**, reducing verification latency by up to 300%.
+*   **🌐 Universal Proxy Engine:** Seamless native integration with SOCKS4, SOCKS5, HTTP, HTTPS, and rotating 4G/Residential proxy pools. Fully compatible with both free and premium proxy lists.
+*   **🔍 Mass Scraper Engine (100k+ Capacity):** High-speed profile scraper module capable of collecting over 100,000 targeted profile IDs in minutes to populate audit pipelines.
+*   **📡 Real-Time Telegram Webhooks:** Instant alerts delivered straight to your Telegram Bot/Channel containing valid hits, security flags, and account metrics.
+
+---
+
+## 🇬🇧 English | Feature Summary
+
+*   **Mode:** Credentials audit (`user:pass` pair checking).
+*   **Accuracy:** Zero-skip guarantee with retry mechanism.
+*   **Rate-Limits:** Auto-saves rate-limited entries to separate output.
+*   **Proxies:** Supports residential, mobile, datacenter (Free/Paid).
+*   **Captcha:** Ultra-fast direct AI bypass (No proxy required for solver).
+*   **Scraper:** Integrated 100k+ target username extractor.
+*   **Alerts:** Live Telegram bot delivery for secured/valid hits.
+
+---
+
+## 🇷🇺 Русский | Краткий обзор системы
+
+**Разработано ведущим архитектором ПО с 20-летним опытом в сфере автоматизации и высоконагруженных систем.**
+
+TikTok Account Auditor Pro — это ультрабыстрый многопоточный инструмент для аутентификации и сбора данных профилей.
+
+### Ключевые возможности:
+*   **Режим работы:** Проверка по парам `user:pass`.
+*   **Гарантия точности (Zero-Skip):** Ни один аккаунт не пропускается при сбоях сети благодаря умной очереди повторов.
+*   **Сохранение Rate-Limit:** Автоматическая изоляция заблокированных по частоте аккаунтов в файл `rate_limited.txt`.
+*   **Обход капчи:** Высокоскоростной прямой модуль решения капчи без нагрузки на прокси.
+*   **Поддержка прокси:** Полная совместимость с SOCKS4/5, HTTP(S) (платные и бесплатные пулы).
+*   **Скрапер:** Встроенный сборщик профилей на 100k+ аккаунтов.
+*   **Уведомления:** Мгновенная отправка валидных активов в Telegram.
+
+---
+
+## 🇨🇳 中文 | 功能概述
+
+**由拥有 20 多年软件工程与自动化经验的资深架构师打造。**
+
+TikTok Account Auditor Pro 是一款专为高效数据验证与账号审计而设计的超高速多线程引擎。
+
+### 核心优势:
+*   **验证模式:** 仅支持 `user:pass` 凭据比对。
+*   **零跳过保证 (Zero-Skip):** 智能重试机制，确保无任何账号因网络问题被遗漏。
+*   **频率限制隔离:** 自动识别并单独保存受限账号 (`rate_limited.txt`)。
+*   **极速 AI 验证码破解:** 本地直连破解算法，无需经过代理路由，显著提升效率。
+*   **代理全面兼容:** 原生支持 SOCKS4/5、HTTP(S) 及动态住宅/移动代理（免费/付费皆可）。
+*   **海量采集器:** 内置 10w+ 目标用户名抓取引擎。
+*   **Telegram 实时推送:** 有效账号即时通知至您的 Telegram 频道或机器人。
+
+---
+
+## ⚙️ Configuration Example (`config.json.example`)
+
 ```json
 {
-  "threads": 50,
-  "timeout_seconds": 12,
+  "audit_settings": {
+    "threads": 100,
+    "timeout_seconds": 10,
+    "max_retries": 5,
+    "never_skip": true
+  },
+  "captcha": {
+    "direct_ai_bypass": true,
+    "route_solver_through_proxy": false
+  },
   "proxy": {
     "enabled": true,
     "type": "socks5",
-    "list_path": "./proxies.txt"
+    "file_path": "./proxies.txt",
+    "auto_rotate": true
   },
-  "captcha": {
-    "fast_bypass_mode": true,
-    "use_proxy_for_solver": false
-  },
-  "rate_limit_policy": {
-    "quarantine_and_save": true,
-    "output_file": "./rate_limited_users.txt"
+  "output_files": {
+    "valid_hits": "./output/secured_hits.txt",
+    "rate_limited": "./output/rate_limited.txt"
   },
   "telegram_notifications": {
     "enabled": true,
-    "bot_token": "YOUR_BOT_TOKEN",
-    "chat_id": "YOUR_CHAT_ID"
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_id": "YOUR_TELEGRAM_CHAT_ID",
+    "send_metrics": true
   }
 }
-
----
-
-
-
-
-
-## 🇷🇺 Русский | Обзор системы
-**Разработано ведущим архитектором ПО с 20-летним опытом в области высоконагруженных и асинхронных систем.**
-
-TikTok Account Auditor Pro — это ультрабыстрый многопоточный движок массовой проверки и аудита аккаунтов, созданный для медиа-агентств, управляющих цифровыми активами и специалистов по автоматизации. Обеспечивает 100% точность проверки без пропусков данных и с минимальной нагрузкой на систему.
-
-### 💎 Ключевые возможности
-*   **🚀 Многопоточность и мульти-вкладки:** Параллельная обработка десятков тысяч аккаунтов с использованием легких асинхронных потоков.
-*   **🎯 Гарантия 100% точности (Zero-Skip):** Умная система повторных попыток гарантирует, что ни одна пара `user:pass` не будет пропущена из-за сетевых сбоев.
-*   **⏳ Автоматическая изоляция Rate-Limit:** Обнаружение ограничений по частоте запросов и автоматическое сохранение аккаунтов (`user:pass`) в отдельный файл для последующей допроверки.
-*   **🧩 Прямой модуль обхода капчи (Fast Captcha Bypass):** Высокоскоростной алгоритм решения капчи TikTok без дополнительных задержек и без необходимости пропускать капчу через прокси.
-*   **📡 Поддержка любых типов прокси:** Полная нативная интеграция с SOCKS4, SOCKS5, HTTP, HTTPS, а также резидентными и мобильными прокси (работает как с платными, так и с бесплатными пулами).
-*   **🔍 Встроенный скрапер профилей (100k+):** Автоматический сбор базы пользователей (более 100 000 профилей) для моментального формирования очередей проверки.
-*   **📲 Мгновенные уведомления в Telegram:** Прямая отправка валидных результатов и метрик аккаунтов в ваш Telegram-бот или канал в режиме реального времени.
-
-### 💼 Покупка и контакты
-*   **👤 Прямая связь (Разработчик):** [Maria Bosser (@mariabosser)](https://t.me/mariabosser)
-*   **📢 Официальный канал:** [SecTools1](https://t.me/Sectools1)
-
----
-
-## 🇨🇳 中文 | 企业级概述
-**由拥有 20 多年高并发与自动化系统架构经验的资深软件工程师设计。**
-
-TikTok Account Auditor Pro 是一款专为媒体机构、数字资产管理者和自动化团队打造的超高速、多线程批量账号审计与验证引擎。提供零跳过的高精度验证、超高吞吐量以及极低的系统资源占用。
-
-### 💎 核心功能与技术优势
-*   **🚀 多标签与并发多线程:** 利用轻量级工作线程同时处理数万个账号，CPU 和内存占用极低。
-*   **🎯 零跳过保证 (100% 审计精度):** 智能重试队列，确保不会因网络波动或超时遗漏任何一组 `user:pass`。
-*   **⏳ 智能 Rate-Limit (频率限制) 隔离:** 自动识别被限流的响应，并将 `user:pass` 安全隔离并保存至独立文件，以便后续重新验证。
-*   **🧩 无代理 AI 验证码秒过:** 独家直连破解算法，快速解开 TikTok 验证码，无需额外经过代理路由，大大提升解密速度。
-*   **📡 全面支持各类代理:** 原生支持 SOCKS4、SOCKS5、HTTP、HTTPS 以及动态住宅/移动代理（完美兼容免费与付费代理池）。
-*   **🔍 内置 100k+ 目标采集器 (Scraper):** 自动抓取超过 10 万个目标用户资料，快速生成待审计队列。
-*   **📲 实时 Telegram Webhooks 推送:** 验证成功的有效账号及详细指标会实时直接发送至您的 Telegram 机器人或频道。
-
-### 💼 购买与商业授权
-*   **👤 开发者直接联系:** [Maria Bosser (@mariabosser)](https://t.me/mariabosser)
-*   **📢 官方频道与更新:** [SecTools1](https://t.me/Sectools1)
